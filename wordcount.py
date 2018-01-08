@@ -2,6 +2,7 @@
 
 import sys
 from string import punctuation
+from collections import Counter
 
 def word_count(filename):
     """Open file, iterate over words, return word count for each word
